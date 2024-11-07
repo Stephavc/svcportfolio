@@ -1,0 +1,102 @@
+body{
+    .londrina-sketch-regular {
+        font-family: "Londrina Sketch", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }      
+}
+
+ol,
+ul{list-style: none;}
+
+a{
+    text-decoration: none;
+}
+
+header{display:flex;
+background-color: rgb(255, 0, 76);
+align-items: center;
+justify-content: space-between;
+}
+
+header a i{
+    color: white;
+    font-size: 1.5cm;
+    padding: 9.5px;
+}
+ header nav ul{
+    display:flex;
+gap: 1.1em;
+}   
+
+header nav ul li a{
+    color: azure;
+} 
+
+.titulo_seccion {
+    position: relative;
+    font-size: 40px;
+    color: #003750;
+    text-align: center;
+  }
+  .container {
+    max-width: 50%; /* Define el ancho máximo del contenedor */
+    margin: 1px auto; /* Centra el contenedor horizontalmente */
+    padding: 8px; /* Agrega un poco de espacio alrededor del formulario */
+    border: xx; /* Agrega un borde al contenedor */
+    border-radius: xx; /* Agrega bordes redondeados al contenedor */
+    border-color: #0056b3;
+  }
+  .form-group {
+    margin-bottom: 15px; /* Espacio entre cada input */
+  }
+  label {
+    margin-bottom: 5px;
+    color:black
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 200px; /* Define el ancho máximo del input */
+    padding: 8px;
+    border: 1px solid #8a1212;
+    border-radius: 10px;
+  }
+  textarea {
+    resize: vertical; /* Permite redimensionar verticalmente el textarea */
+  }
+  button {
+    font-size: 20px;
+    background-color: rgb(38, 105, 24);
+    border-radius: 15px;
+    width: 160px;
+    height: 38px;
+    /* Coloca estilos a tu botón */
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+
+footer{background-color: brown;
+div {display: block}
+}
+.seccion-3 {
+    display:flex;
+    align-items: center;
+    padding: 100px 50px;
+    position: relative;
+    width: 1182px;
+}
+#check {
+    display: none;
+}
+
+.checkbtn {
+display: none;
+font-size: 25px;
+color: white;
+float: right;
+line-height: 80px;
+margin-right: 40px;
+cursor: pointer;
+}
